@@ -56,7 +56,7 @@ export default function ChatBot({ variant = 'dark' }: { variant?: 'dark' | 'ligh
       {/* Chat Widget Button */}
       <motion.button
         onClick={() => setIsOpen(!isOpen)}
-        className={`fixed bottom-8 right-8 w-16 h-16 rounded-full glass border flex items-center justify-center z-40 transition-colors ${
+        className={`fixed bottom-4 md:bottom-8 right-4 md:right-8 w-14 md:w-16 h-14 md:h-16 rounded-full glass border flex items-center justify-center z-40 transition-colors ${
           isDark
             ? 'border-cyan-400/50 hover:border-cyan-300 hover:bg-cyan-500/10'
             : 'border-gray-400/70 hover:border-gray-500 hover:bg-gray-100/10'
@@ -93,7 +93,7 @@ export default function ChatBot({ variant = 'dark' }: { variant?: 'dark' | 'ligh
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.8, y: 20 }}
             transition={{ type: 'spring', stiffness: 100, damping: 20 }}
-            className={`fixed bottom-28 right-8 w-96 h-96 rounded-2xl flex flex-col shadow-xl z-40 ${
+            className={`fixed bottom-20 md:bottom-28 right-4 md:right-8 w-[calc(100vw-2rem)] md:w-96 h-[60vh] md:h-96 rounded-2xl flex flex-col shadow-xl z-40 max-w-sm ${
               isDark
                 ? 'glass border border-cyan-400/30'
                 : 'bg-white/95 border-2 border-gray-600 backdrop-blur-sm'
