@@ -27,7 +27,7 @@ export default function Header() {
           <img
             src="/xpel-logo-light.webp"
             alt="XPEL"
-            className="h-[8.6rem] w-auto"
+            className="h-[8.6rem] w-auto self-end"
           />
         </motion.div>
 

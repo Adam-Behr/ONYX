@@ -27,7 +27,7 @@ export default function AltHeader() {
           <img
             src="/xpel-logo-dark.webp"
             alt="XPEL"
-            className="h-[5.4rem] w-auto"
+            className="h-[5.4rem] w-auto self-end"
           />
         </motion.div>
 
