@@ -19,15 +19,15 @@ export default function AltHeader() {
           transition={{ type: 'spring', stiffness: 100, damping: 20 }}
         >
           <img
+            src="/onyx-logo-light.webp"
+            alt="ONYX Tint Co."
+            className="h-[19.375rem] w-auto"
+          />
+          <div className="w-px h-[19.375rem] bg-gray-300" />
+          <img
             src="/xpel-logo-dark.webp"
             alt="XPEL"
             className="h-[5.4rem] w-auto"
-          />
-          <div className="w-px h-[7.75rem] bg-gray-300" />
-          <img
-            src="/onyx-logo-light.webp"
-            alt="ONYX Tint Co."
-            className="h-[7.75rem] w-auto"
           />
         </motion.div>
 
