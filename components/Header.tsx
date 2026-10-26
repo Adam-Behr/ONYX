@@ -25,7 +25,7 @@ export default function Header() {
           />
           <div className="w-px h-[4.3rem] bg-cyan-500/30" />
           <img
-            src="/onyx-dark-logo.png"
+            src="/onyx-logo-dark.webp"
             alt="ONYX Tint Co."
             className="h-[4.3rem] w-auto"
           />

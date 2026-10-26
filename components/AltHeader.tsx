@@ -25,7 +25,7 @@ export default function AltHeader() {
           />
           <div className="w-px h-[7.75rem] bg-gray-300" />
           <img
-            src="/onyx-logo.png"
+            src="/onyx-logo-light.webp"
             alt="ONYX Tint Co."
             className="h-[7.75rem] w-auto"
           />
