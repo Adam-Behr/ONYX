@@ -14,7 +14,7 @@ export default function AltHeader() {
     >
       <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <motion.div
-          className="flex items-center gap-3"
+          className="flex items-end gap-3 pb-4"
           whileHover={{ scale: 1.05 }}
           transition={{ type: 'spring', stiffness: 100, damping: 20 }}
         >
@@ -27,7 +27,7 @@ export default function AltHeader() {
           <img
             src="/xpel-logo-dark.webp"
             alt="XPEL"
-            className="h-[5.4rem] w-auto self-end"
+            className="h-[5.4rem] w-auto"
           />
         </motion.div>
 

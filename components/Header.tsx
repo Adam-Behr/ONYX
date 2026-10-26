@@ -14,7 +14,7 @@ export default function Header() {
     >
       <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <motion.div
-          className="flex items-center gap-3"
+          className="flex items-end gap-3 pb-4"
           whileHover={{ scale: 1.05 }}
           transition={{ type: 'spring', stiffness: 100, damping: 20 }}
         >
@@ -27,7 +27,7 @@ export default function Header() {
           <img
             src="/xpel-logo-light.webp"
             alt="XPEL"
-            className="h-[8.6rem] w-auto self-end"
+            className="h-[8.6rem] w-auto"
           />
         </motion.div>
 
