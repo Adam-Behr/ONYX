@@ -12,22 +12,22 @@ export default function Header() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
     >
-      <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <nav className="max-w-7xl mx-auto px-3 md:px-6 py-2 md:py-4 flex items-center justify-between">
         <motion.div
-          className="flex items-end gap-3 pb-4"
+          className="flex items-end gap-2 md:gap-3 pb-2 md:pb-4"
           whileHover={{ scale: 1.05 }}
           transition={{ type: 'spring', stiffness: 100, damping: 20 }}
         >
           <img
             src="/onyx-logo-dark.webp"
             alt="ONYX Tint Co."
-            className="h-[10.75rem] w-auto"
+            className="h-[4rem] md:h-[10.75rem] w-auto"
           />
-          <div className="w-px h-[10.75rem] bg-cyan-500/30" />
+          <div className="hidden md:block w-px h-[10.75rem] bg-cyan-500/30" />
           <img
             src="/xpel-logo-light.webp"
             alt="XPEL"
-            className="h-[8.6rem] w-auto"
+            className="h-[2.5rem] md:h-[8.6rem] w-auto"
           />
         </motion.div>
 
@@ -48,7 +48,7 @@ export default function Header() {
         </div>
 
         <motion.button
-          className="glass px-6 py-2 rounded-lg text-sm font-semibold text-white border border-cyan-400/50 hover:border-cyan-300 hover:bg-cyan-500/10"
+          className="hidden md:block glass px-6 py-2 rounded-lg text-sm font-semibold text-white border border-cyan-400/50 hover:border-cyan-300 hover:bg-cyan-500/10"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.98 }}
           transition={{ type: 'spring', stiffness: 100, damping: 20 }}
