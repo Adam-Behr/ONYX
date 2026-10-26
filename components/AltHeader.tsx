@@ -19,9 +19,9 @@ export default function AltHeader() {
           transition={{ type: 'spring', stiffness: 100, damping: 20 }}
         >
           <img
-            src="/xpel-logo.png"
+            src="/xpel-logo-light.webp"
             alt="XPEL"
-            className="h-[2.7rem] w-auto"
+            className="h-[4.05rem] w-auto"
           />
           <div className="w-px h-[7.75rem] bg-gray-300" />
           <img

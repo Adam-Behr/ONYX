@@ -19,11 +19,11 @@ export default function Header() {
           transition={{ type: 'spring', stiffness: 100, damping: 20 }}
         >
           <img
-            src="/xpel-logo.png"
+            src="/xpel-logo-dark.webp"
             alt="XPEL"
-            className="h-[4.3rem] w-auto"
+            className="h-[6.45rem] w-auto"
           />
-          <div className="w-px h-[4.3rem] bg-cyan-500/30" />
+          <div className="w-px h-[6.45rem] bg-cyan-500/30" />
           <img
             src="/onyx-logo-dark.webp"
             alt="ONYX Tint Co."
