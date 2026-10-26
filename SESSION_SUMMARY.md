@@ -9,8 +9,10 @@
 A professional, production-ready website for ONYX Tint Co. featuring two distinct design variants that showcase different aesthetic approaches while maintaining consistent branding.
 
 ### Live Preview
-- **Modern Dark Variant:** http://localhost:3000
-- **Minimalist Light Variant:** http://localhost:3000/alt
+- **Modern Dark Variant (Local):** http://localhost:3000
+- **Minimalist Light Variant (Local):** http://localhost:3000/alt
+- **Modern Dark Variant (Vercel):** https://onyx-k1lw.vercel.app
+- **Minimalist Light Variant (Vercel):** https://onyx-k1lw.vercel.app/alt
 
 ## Design Variants
 
@@ -79,21 +81,25 @@ A professional, production-ready website for ONYX Tint Co. featuring two distinc
 
 ## What Changed Today
 
-1. **Logo Integration**
-   - Added XPEL trademarked logo to both variants
+1. **Logo Integration & Fixes** ✓
+   - Added XPEL trademarked logo to both variants (200% size - 2x original)
    - Integrated dark ONYX logo with gradient graphic in modern header
    - Integrated colorful ONYX Tint Co. logo in minimalist header
-   - Increased all logos by 180% (1.8x original size)
+   - **Fixed logo assignments for proper contrast:**
+     - Dark site (Header.tsx): White outline XPEL logo (xpel-logo-light.webp)
+     - Light site (AltHeader.tsx): Black solid XPEL logo (xpel-logo-dark.webp)
 
-2. **Chatbot Enhancement**
+2. **Chatbot Enhancement** ✓
    - Made light variant chatbot highly visible with dark gray border (border-gray-600)
    - Adjusted to white/95 background for clarity
    - Kept dark variant with cyan accent borders and glassmorphism
+   - Auto-opens after 5 seconds on both variants
 
-3. **GitHub Setup**
+3. **GitHub & Deployment** ✓
    - Initialized git repository
    - Created GitHub repository (Adam-Behr/ONYX)
-   - Initial commit with full project code
+   - Connected to Vercel for auto-deployment on push
+   - All changes live and synced
 
 ## File Structure
 ```
